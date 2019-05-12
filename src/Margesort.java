@@ -60,9 +60,6 @@ public static void merge(int[] left,int[] r,int[] a)
 
     }
 
-
-
-
 }
     public static void main(String[] args) {
         int[] a={1,2,8,7,9,6,4,3,5};

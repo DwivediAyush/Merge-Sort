@@ -14,7 +14,7 @@ public class QUICKSORT {
     {
         int pivot=a[end];
        int pindex=start;
-  for(int i=0;i<end;i++)
+  for(int i=start;i<end;i++)
       if (a[i] <= pivot) {
           int temp;
           temp = a[pindex];
@@ -31,9 +31,10 @@ a[end]=temp;
 
     public static void main(String[] args) {
         int a[]={2,4,5,1,7,3,6};
+
         quicksort(a,0,a.length-1);
         for(int i =0;i<a.length;i++)
-            System.out.print(a[i]);
+            System.out.print(a[i]+" ");
     }
 
 

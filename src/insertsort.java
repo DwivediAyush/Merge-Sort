@@ -5,7 +5,7 @@ public class insertsort {
             {
                 int value=a[i];
                 int place=i;
-                while(place>0&&a[place-1]>value)
+                while(place>0  &&  a[place-1]>value)
                 {
                     a[place]=a[place-1];
                     place--;
